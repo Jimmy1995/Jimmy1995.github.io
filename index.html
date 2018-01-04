@@ -1,36 +1,19 @@
 ---
-layout: default
+layout: main
 ---
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
-
-  <figure class="ampstart-image-fullpage-hero m0 relative mb4">
-    <amp-img width="404" height="720" alt="Cover" layout="responsive" src="{{ site.baseurl }}{{ site.cover }}" media="(max-width: 415px)"></amp-img>
-    <amp-img height="720" alt="Cover" layout="fixed-height" src="{{ site.baseurl }}{{ site.cover }}" media="(min-width: 416px)"></amp-img>
-    <figcaption class="absolute top-0 right-0 bottom-0 left-0">
-      <header class="p3">
-        <h1 class="ampstart-fullpage-hero-heading mb0 hanuman">
-          <span class="ampstart-fullpage-hero-heading-text title">
-            {{ site.title }}
-          </span>
-        </h1>
-        <h2 class="ampstart-fullpage-hero-heading mb0">
-          <span class="ampstart-fullpage-hero-heading-text description">
-            {{ site.description }}
-          </span>
-        </h2>
-    </header>
-    {% if site.cover %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-readmore py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
-    </footer>
-    {% else %}
-    <footer class="absolute left-0 right-0 bottom-0">
-      <a class="ampstart-read py3 caps line-height-2 text-decoration-none center block h5" href="#content"><span class="ampstart-readmore-text px1">Read more</span></a>
-    </footer>
-    {% endif %}
-    </figcaption>
-  </figure>
-
-asdfasddfadsfasdfasdf及第三范式的 阿萨大大激发
-
-{% include footer.html %}
+{% include pagination.html %}
