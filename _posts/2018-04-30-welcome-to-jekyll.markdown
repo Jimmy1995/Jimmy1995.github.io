@@ -7,7 +7,11 @@ img:  # Add image post (optional).
 ---
 一直以来都想搭建一个自己的博客，但是一直都，所以也一直没顾得上。一次偶然在网上上看到一些博客相关的内容，参考node.js下的hexo和 ruby下的jekyll，两个都是用github pages功能的静态页面,一个是将遍以后的markdown文本转成html上传,一个是直接上传markdown文章，都有在本地搭建运行,因为想某些时候在浏览器上编辑更改,最终选择了在github上用jekyll搭建博客。
 
-从去年开始就想搭建一个自己的博客，但是一直都没有行动，但是今天觉得自己搭个博客更加方便以后的一些笔记的记录，在朋友的帮助下最终选择了在github上用jekyll搭建博客。
+------
+
+[TOC]
+
+
 
 #搭建过程：
 
@@ -27,7 +31,7 @@ ruby官网下载安装：[<https://www.ruby-lang.org/en/downloads/>](<https://ww
 
 ## 安装RubyGems
 
-官网下载 [<http://rubygems.org/pages/download>](<http://rubygems.org/pages/download>)rubygems-2.4.5.zip
+官网下载 [<http://rubygems.org/pages/download>](http://rubygems.org/pages/download)rubygems-2.4.5.zip
 
 cd到RubyGems目录
 
