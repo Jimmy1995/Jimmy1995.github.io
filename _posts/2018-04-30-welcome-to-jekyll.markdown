@@ -7,12 +7,6 @@ img:  # Add image post (optional).
 ---
 一直以来都想搭建一个自己的博客，但是一直都，所以也一直没顾得上。一次偶然在网上上看到一些博客相关的内容，参考node.js下的hexo和 ruby下的jekyll，两个都是用github pages功能的静态页面,一个是将遍以后的markdown文本转成html上传,一个是直接上传markdown文章，都有在本地搭建运行,因为想某些时候在浏览器上编辑更改,最终选择了在github上用jekyll搭建博客。
 
-------
-
-[TOC]
-
-
-
 #搭建过程：
 
 在jekyll的官网上[ <http://jekyllrb.com/>](http://jekyllrb.com/) 其实已经说得比较明白了，我在这里还是简单的说一下吧。我用的是Windows系统。  
@@ -56,3 +50,7 @@ gem install jemoji
 ## 运行blog
 
 cd 进入blog的根目录 运行windows命令行：jekyll server / jekyll server --watch
+
+
+
+友情链接[http://itaren.com/](http://itaren.com/)
