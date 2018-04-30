@@ -51,6 +51,4 @@ gem install jemoji
 
 cd 进入blog的根目录 运行windows命令行：jekyll server / jekyll server --watch
 
-
-
 友情链接[http://itaren.com/](http://itaren.com/)
