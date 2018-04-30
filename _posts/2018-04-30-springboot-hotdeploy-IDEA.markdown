@@ -16,7 +16,7 @@ tags: [Holidays, lonema]
 
 https://blog.csdn.net/tengxing007/article/details/72675168
 
-[热部署](https://www.cnblogs.com/magicalSam/p/7196355.html)
+[热部署2](https://www.cnblogs.com/magicalSam/p/7196355.html?_blank)
 
 https://www.imooc.com/video/16717
 
