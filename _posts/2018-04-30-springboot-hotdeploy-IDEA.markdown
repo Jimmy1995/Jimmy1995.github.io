@@ -6,19 +6,16 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: i-rest.jpg # Add image post (optional)
 tags: [Holidays, lonema]
 ---
-> 资料链接：
-> https://www.cnblogs.com/jcook/p/6910238.html
->
+资料链接：
+[Intellij IDEA 4种配置热部署的方法](https://www.cnblogs.com/jcook/p/6910238.html)
 
+[springboot 在idea中实现热部署](https://blog.csdn.net/xusheng_Mr/article/details/78771746) 
 
+[基于Maven的SpringBoot项目实现热部署的两种方式](https://blog.csdn.net/tengxing007/article/details/72675168)
 
-[asd]: https://blog.csdn.net/xusheng_Mr/article/details/78771746	"热部署"
+[Spring Boot 系列（六）web开发-Spring Boot 热部署](https://www.cnblogs.com/magicalSam/p/7196355.html)
 
-https://blog.csdn.net/tengxing007/article/details/72675168
-
-[热部署2](https://www.cnblogs.com/magicalSam/p/7196355.html?_blank)
-
-https://www.imooc.com/video/16717
+[SpringBoot开发常用技术整合...](https://www.imooc.com/video/16717)
 
 配置文件（application.properties/application.yml）文件中配置参数（properties文件为例）：
 
